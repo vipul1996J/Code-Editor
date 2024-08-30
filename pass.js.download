@@ -1,0 +1,26 @@
+function run(){
+    var code = document.getElementById("Code").value;
+    var result_box = document.getElementById("result");
+    result_box.innerHTML = code;
+    var code_box = document.getElementById("Codebox");
+    code_box.style.display = "none";
+    var result_box = document.getElementById("coder");
+    result_box.style.display = "block";
+    var btn1 =document.getElementById("run_btn");
+    btn1.style.display = "none";
+    var btn2 = document.getElementById("back_btn");
+    btn2.style.display = "block";
+}
+
+function bck(){
+    var back = document.getElementById("coder");
+    back.style.display ="none";
+    var  code = document.getElementById("Codebox");
+    code.style.display = "block";
+    var btn2 = document.getElementById("back_btn");
+    btn2.style.display ="none";
+    var btn1 = document.getElementById("run_btn");
+    btn1.style.display = "block";
+    
+
+}
